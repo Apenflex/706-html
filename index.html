@@ -5,69 +5,158 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1200px-Cat_November_2010-1a.jpg" alt="img">
-        <!--..Комментар.-->
-    <a>Силка</a>
-    <style></style>
-    <title></title>
-    <abbr></abbr>
-    <address>0630002200</address>
-    <area>
-    <article></article>
-    <aside>Контекст</aside>
-    <audio>Аудіо вставка</audio>
-    <b>Жирний текст</b>
-    <blockquote>Цитата</blockquote>
-    <body>Область документа</body>
-    <br>Переносить строку
-    <button>Кнопка</button>
-    <caption>Підпис таблиці</caption>
-    <div></div>
-    <span></span>
-    <em></em>
-    <sup></sup>
-    <fieldset>Група елементів в формі</fieldset>
-    <figcaption>Заголовок для <figure></figure></figcaption>
-    <footer>Підвал</footer>
-    <form></form>
-    <h1></h1> - <h6></h6> Заголовки
-    <head></head>
-    <header>блок заголовка</header>
-    <hr>Горизонтальна лінія
-    <html></html>
-    <i></i>
-    <iframe></iframe>
-    <img>
-    <input>
-    <label>Мітка поля вводу</label>
-    <legend>Заголовок елемента <fieldset></fieldset> </legend>
-    <li>Елементи списку</li>
-    <ul>список маркований</ul>
-    <ol>нумерований</ol>
-    <select></select>
-    <option></option>
-    <source>
-    <link>
-    <main></main>
-    <map></map>
-    <meta>
-    <object></object>
-    <p></p>
-    <script></script>
-    <section></section>
-    <nav></nav>
-    <menu></menu>
-    <table></table>
-    <tbody></tbody>
-    <td></td>
-    <textarea></textarea>
-    <thead></thead>
-    <tfoot></tfoot>
-    <th></th>
-    <tr></tr>
-    <video></video>
+    <header id="header">
+        <div class="container">
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="index.html"><img src="logo.webp" alt="banana"></a>
+                    <div>Super Banana</div>
+                </div>
+                
+                <div class="nav-bar">
+                    <ul>
+                        <li><a href="#features">Features</a> </li>
+                        <li><a href="#how_it_works">How It Works</a> </li>
+                        <li><a href="#pricing">Pricing</a> </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="banana_form">
+                    <h2>Handcrafted, home-made masterpieces</h2>
+                    <form action="https://www.freecodecamp.com/email-submit">
+                        <input name="email" id="email" type="email" placeholder="Enter your email address" required>
+                        <input type="submit" type="submit" value="Get Banana" class="btn">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="grid">
+                        <div class="icon"><i class="fa-solid fa-recycle"></i></div>
+                        <div class="descr">
+                            <h3>Premium Materials</h3>
+                            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="icon"><i class="fa-solid fa-truck"></i></div>
+                        <div class="descr">
+                            <h3>Fast Shipping</h3>
+                            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="icon"><i class="fa-solid fa-battery-full"></i></div>
+                        <div class="descr">
+                            <h3>Quality Assurance</h3>
+                            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="icon"><i class="fa-solid fa-recycle"></i></div>
+                        <div class="descr">
+                            <h3>Premium Materials</h3>
+                            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="grid">
+                        <div class="icon"><i class="fa-solid fa-truck"></i></div>
+                        <div class="descr">
+                            <h3>Fast Shipping</h3>
+                            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="grid">
+                        <div class="icon"><i class="fa-solid fa-recycle"></i></div>
+                        <div class="descr">
+                            <h3>Premium Materials</h3>
+                            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how_it_works" class="how_it_works">
+            <iframe width="727" height="409" src="https://www.youtube.com/embed/dUZGTfEQqqI" title="Minions Banana Song (Full) [HD]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <div class="pricing__wrapper">
+                    
+                    <div class="pricing__card">
+                        <h3>Kevin</h3>
+                        <div class="price">$600</div>
+                        <ol class="pricing__list">
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum dolor.</li>
+                            <li>Lorem ipsum.</li>
+                        </ol>
+                        <button class="btn">Select</button>
+                    </div>
+                    
+                    <div class="pricing__card">
+                        <h3>Bob</h3>
+                        <div class="price">$900</div>
+                        <ol class="pricing__list">
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum dolor.</li>
+                            <li>Lorem ipsum.</li>
+                        </ol>
+                        <button class="btn">Select</button>    
+                    </div>
+
+                    <div class="pricing__card">
+                        <h3>Stuart</h3>
+                        <div class="price">$1200</div>
+                        <ol class="pricing__list">
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum.</li>
+                            <li>Lorem ipsum dolor.</li>
+                            <li>Lorem ipsum.</li>
+                        </ol>
+                        <button class="btn">Select</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="№">Privacy</a></li>
+            <li><a href="№">Terms</a></li>
+            <li><a href="№">Contact</a></li>
+        </ul>
+        <span>Copyright 2016, Original Trombones</span>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
