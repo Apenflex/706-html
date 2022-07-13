@@ -225,7 +225,7 @@ form input[type='submit'], .btn {
     margin: 10px;
     border: 1px solid #000;
     border-radius: 3px;
-    background-image: url('kevin_card.webp');
+    background-image: url('img/kevin_card.webp');
     min-height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -237,14 +237,14 @@ form input[type='submit'], .btn {
     }
 }
 .pricing__card:nth-child(2) {
-    background: url('bob_card.webp');
+    background: url('img/bob_card.webp');
     min-height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .pricing__card:nth-child(3) {
-    background: url('stuart_card.webp');
+    background: url('img/stuart_card.webp');
     min-height: 400px;
     background-position: center;
     background-repeat: no-repeat;
